@@ -1,8 +1,12 @@
-<?php 
+<?php
+require_once "../src/model/config_model.php";
+$configDatas=new configModel("../json/config.json");
+var_dump($configDatas);
+echo($configDatas->get_single_page_behaviour());
 //Config du site, partie publique
 //Comportement single ou multipage,
 // chaque section intégrée sera soit absorbée par la simple page ou deviendra une page à part entière
-$singlePage=1;
+$singlePage=0;
 //Fin de comportement single ou multipage,
 /*****************************************/
 //Gestion de langue
@@ -30,6 +34,8 @@ $repImg="img/content/";
 $titleWebSite=["Slow","Ways", "Weekend"];
 /************************/
 //Menus du site, alimente la navigation principale impliquant le controleur frontal et d'autres navigations, exemple : "links","réseaux sociaux" parfois intégrées au footer  
+require_once("../src/model/config_model.php");
+require_once("../src/model/menus_model.php");
 $menus=new MenusModel(__DIR__."../../json/menus.json");
 $menuRS=$menus->getMenu("RS_menu");
 $pagesDuMenus=array();

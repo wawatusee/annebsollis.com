@@ -2,6 +2,7 @@
 	"singlepage":"false",
 	"titleWebsite":["Anne", "B.Sollis"],
 	"repImg":"img/content",
+	"repImgDeco":"img/content",
 	"langs":[
 		{"fr":"Français"},
 		{"en":"Anglais"},

@@ -1,6 +1,6 @@
 <?php
-require_once("../src/model/config_model.php");
-require_once("../src/model/menus_model.php");
+//Config_model nous donnera de quoi traiter les langues, le titre, le comportement singlepage, les adresses des répertoires utiles du site.
+
 require_once "../config/config.php";?>
 <!DOCTYPE html>
 <html lang=<?=$lang?> prefix="og:http://ogp.me/ns#">
