@@ -1,29 +1,38 @@
 {
 	"Main_menu":[
 		{
-			"page":"programm",
-			"titre":{
-				"fr":"Programme",
-				"en":"Program",
-				"nl":"Programma"		
-				}
-		},
-		{
-			"page":"map",
-			"titre":{
-				"fr":"Carte",
-				"en":"Map",
-				"nl":"Kaart"
+			"page": "galleries",
+			"titre": {
+			   "fr": "Galeries",
+			   "en": "Galleries",
+			   "nl": "Galerijen"
 			}
-		},
+		 },
 		{
-			"page":"partners",
-			"titre":{
-				"fr":"Partenaires",
-				"en":"Partners",
-				"nl":"Partners"
+			"page": "home",
+			"titre": {
+			   "fr": "Accueil",
+			   "en": "Home",
+			   "nl": "Thuis"
 			}
-		}
+		 },
+
+		 {
+			"page": "about",
+			"titre": {
+			   "fr": "À propos",
+			   "en": "About",
+			   "nl": "Over ons"
+			}
+		 },
+		{
+			"page": "contact",
+			"titre": {
+			   "fr": "Contact",
+			   "en": "Contact",
+			   "nl": "Contact"
+			}
+		 }
 
 	],
 	"RS_menu":[
