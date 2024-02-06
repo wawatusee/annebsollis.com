@@ -16,34 +16,44 @@ section{
 :root{
     --main-dark-color:#333;
     --main-clear-color:#f5F5F5;
+    --neutral-grey:#808080;
+    /*Autres blancs possibles
+     #FAFAFA ou #EAEAEA*/
     --first-color:#e65639;
-    --secondary-indigo:#2B254C;
-    --secondary-citron:#FFE475;
-    --grey-clear-color:#a8a9ad;
+
+    --bic-bleu : #0000FF;
+    --bic-noir : #000000;
+    --bic-rouge : #FF0000;
+    --bic-vert : #008000;
     --rs-bckgrnd-img:url("../img/deco/logo-rs_30px.png");
 }
 /*Fonts*/
 @font-face{
-    font-family:'myFirstFont';
-    src:
-    url("./fonts/GT-Eesti-Display-Regular.ttf"),
-    url("./fonts/GT-Eesti-Display-Regular.otf"),
-    url("./fonts/GT-Eesti-Display-Regular.wof");
-}
-/*Use this font with this line => font-family: myFirstFont;*/
-@font-face{
     font-family:"myTitleFont";
     src:
-    url("./fonts/GT-Eesti-Display-Ultra-Bold.ttf"),
-    url("./fonts/GT-Eesti-Display-Ultra-Bold.otf"),
-    url("./fonts/GT-Eesti-Display-Ultra-Bold.wof");
+    url("./fonts/Roboto-Thin.ttf"),
+   /* url("./fonts/Roboto-Thin.otf"),
+    url("./fonts/Roboto-Thin.wof");*/
 }
 /*Use this font with this line => font-family: myTitleFont;*/
+@font-face{
+    font-family:'myFirstFont';
+    src:
+    url("./fonts/Roboto-Light.ttf"),
+    /*url("./fonts/GT-Eesti-Display-Regular.otf"),
+    url("./fonts/GT-Eesti-Display-Regular.wof");*/
+}
+/*Use this font with this line => font-family: myFirstFont;*/
 body{
     font-family: "myFirstFont";
 }
+h1{
+    font-family: myTitleFont;
+    text-align: center;
+    color: var(--bic-rouge);
+}
 h2{
-    color: var(--first-color);
+    color: var(--bic-rouge);
     font-family: "myTitleFont";
     text-align: center;
 }
