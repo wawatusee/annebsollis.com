@@ -1,0 +1,11 @@
+{
+	"singlepage":false,
+	"titleWebsite":["Anne", "B.Sollis",".com"],
+	"repImg":"img/content",
+	"repImgDeco":"img/deco",
+	"langs":[
+		{"fr":"Français"},
+		{"en":"Anglais"},
+		{"nl":"Néerlandais"}									
+	]
+}
