@@ -36,7 +36,7 @@
         Cette page est un accès à toutes les galeries.<br>
         Elle sera composée d'une série de liens pour accéder directement aux galeries.<br>
         Une page galerie répondra à cet appel.<br>
-        Tout le vocabulaire de cette poage devra être accessible dans les trois langues.<br>
+        Tout le vocabulaire de cette page devra être accessible dans les trois langues.<br>
         Les liens seront composé du titre de la galerie, et les détails qualifiant le contenu et la raison de cette galerie.(époque, technique, événement)<br>
     </article>
 </section>

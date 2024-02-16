@@ -1,6 +1,6 @@
 <header>
     <div class="mainTitleBlock">
-        <h1><img class="logo" src="img/deco/logo_blanc.svg">
+        <h1>
             <div class="mainsubtitle"><?php echo $a_titleWebSite[0]?><?php echo " ".$a_titleWebSite[1]?><?php echo " ".$a_titleWebSite[2]?>
             </div>
         </h1>

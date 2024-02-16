@@ -40,7 +40,7 @@ color: var(--main-clear-color);
 text-decoration: underline;
 color: var(--main-dark-color);
 }
-/*Block  rsMenu*/
+    /*Block  rsMenu*/
 .nav-rs{
     display: flex;
     justify-content:center;
@@ -71,24 +71,5 @@ color: var(--main-dark-color);
   background-position-x:-150px;
   }
   /*End RSmenu*/
-  /*Sponsors*/
- .sponsors{
-  color: var(--first-color);
-  display: flex;
-  justify-content: space-around;
-  flex-direction: row;
-  flex-wrap: wrap;
-  row-gap: 15px;
- }
-  .sponsor img{
-    max-height: 350px;
-    max-width: 300px;
-    margin: auto auto auto auto;
-  }
-  .sponsors>img{
-    max-width: 96vw;
-   }
-    /*End Sponsors*/
-  /**********************/
-      /* end footerNav*/
-  /**********************/
+/* end footerNav*/
+/**********************/

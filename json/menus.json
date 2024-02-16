@@ -8,15 +8,6 @@
 			   "nl": "Galerijen"
 			}
 		 },
-		{
-			"page": "home",
-			"titre": {
-			   "fr": "Accueil",
-			   "en": "Home",
-			   "nl": "Thuis"
-			}
-		 },
-
 		 {
 			"page": "about",
 			"titre": {

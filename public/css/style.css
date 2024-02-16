@@ -19,13 +19,12 @@ section{
     --neutral-grey:#808080;
     /*Autres blancs possibles
      #FAFAFA ou #EAEAEA*/
-    --first-color:#e65639;
-
     --bic-bleu : #0000FF;
     --bic-noir : #000000;
     --bic-rouge : #FF0000;
     --bic-vert : #008000;
     --rs-bckgrnd-img:url("../img/deco/logo-rs_30px.png");
+    --first-color:var(--bic-rouge);
 }
 /*Fonts*/
 @font-face{
