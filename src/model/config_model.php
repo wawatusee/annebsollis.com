@@ -80,14 +80,10 @@ class ConfigModel{
     public function get_str_title(){
         $a_titleWebsite=$this->titleWebsite;
         $str_titleWebSite='';
-        var_dump($a_titleWebsite);
         foreach ($a_titleWebsite as $titleWord)
         {
-            echo $titleWord;
-            //var_dump($a_titleWebsite);
             $str_titleWebSite.=$titleWord;
         }
-        echo $str_titleWebSite;
         return $str_titleWebSite;
     }
 
