@@ -1,39 +1,22 @@
 {
-	"Main_menu":[
-		{
-			"page": "galleries",
-			"titre": {
-			   "fr": "Galeries",
-			   "en": "Galleries",
-			   "nl": "Galerijen"
-			}
-		 },
-		 {
-			"page": "about",
-			"titre": {
-			   "fr": "À propos",
-			   "en": "About",
-			   "nl": "Over ons"
-			}
-		 },
-		{
-			"page": "contact",
-			"titre": {
-			   "fr": "Contact",
-			   "en": "Contact",
-			   "nl": "Contact"
-			}
-		 }
-
-	],
-	"RS_menu":[
-		{
-			"page":"https://www.facebook.com/walkbrussels/",
-			"titre":"facebook"
-		},
-		{
-			"page":"https://www.instagram.com/walk.brussels/",
-			"titre":"instagram"
-		}
-	]
+  "Main_menu": [
+    {
+      "page": "galeries",
+      "titre": {
+        "fr": "galeries"
+      }
+    },
+    {
+      "page": "contact",
+      "titre": {
+        "fr": "contacts"
+      }
+    }
+  ],
+  "RS_menu": [
+    {
+      "page": "https://www.instagram.com/anne_b._sollis?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==/",
+      "titre": "instagram"
+    }
+  ]
 }

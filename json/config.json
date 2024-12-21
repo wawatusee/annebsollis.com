@@ -1,11 +1,11 @@
 {
-	"singlepage":false,
-	"titleWebsite":["Anne", "B.Sollis",".com"],
-	"repImg":"img/content",
-	"repImgDeco":"img/deco",
-	"langs":[
-		{"fr":"Français"},
-		{"en":"Anglais"},
-		{"nl":"Néerlandais"}									
-	]
+    "config":{
+        "singlePage":0,
+        "langs":[
+            {
+                "fr" : "Français"
+                }
+            ],
+            "titleWebSite":["emilie","foudelman","mariages"]
+    }
 }

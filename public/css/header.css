@@ -1,34 +1,41 @@
-  /*Header*/
-  header{
-    background-color: var(--first-color);
-    color: var(--main-clear-color);
-    background-image: url("../img/deco/moite-38.jpg");
-    background-repeat: no-repeat; /* Pour empêcher la répétition */
-    background-position: center; 
-    background-size: contain;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    height:auto;
-  }
-  /* Appliquer un style différent pour les écrans de petite taille */
-@media screen and (max-width: 768px) {
-  header {
-    background-image: none; /* Supprime l'image de fond */
-  }
+/*Header*/
+header {
+  color: var(--main-clear-color);
+  justify-content: space-between;
+  align-items: center;
+  height: auto;
+}
+.mainTitleBlock {
+  background-color: var(--main-dark-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.mainsubtitle {
+margin: auto;
+  font-family: "myHomeFont";
+  letter-spacing: .5rem;
+  font-size: 1.8em;
 }
 
-  header H1, header p{
-    text-align: center;
-  }
+.title-elmt{
+padding: 10px;
+ margin: auto;
+}
+.mainTitleBlock h2{
+  font-family: "myTitleFont", Verdana, Geneva, Tahoma, sans-serif, sans-serif;
+  font-size: 1.4em;
+}
+.mainsubtitle a {
+  color: var(--main-clear-color);
+  text-decoration: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.mainsubtitle a:hover {
+  color: var(--secondary-red);
+}
 
-  .mainsubtitle{
-    font-family: "myTitleFont",Verdana, Geneva, Tahoma, sans-serif, sans-serif;
-    margin: 0px 40px 20px 40px;
-    color: var(--main-clear-color);
-  }
-
-
-  /*End header*/
+/*End header*/
 /**********************/
